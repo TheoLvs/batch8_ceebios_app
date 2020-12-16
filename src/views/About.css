@@ -1,0 +1,38 @@
+.home-img{
+    width:100%;
+}
+
+.home-text{
+    font-size:18px;
+}
+
+.home-p{
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:30px;
+    color:white;
+}
+
+.home-button{
+    text-align:center;
+}
+
+.home-button > a{
+    font-size:16px;
+}
+
+
+.home-button > a:visited{
+    background-color:#fb2056!important;
+}
+
+
+.ceebios{
+    color:#fb2056;
+}
+
+
+.home-container{
+    background: rgb(7,10,32);
+    background: linear-gradient(180deg, rgba(7,10,32,1) 0%, rgba(23,36,113,1) 100%);
+}

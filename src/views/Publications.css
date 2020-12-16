@@ -1,0 +1,38 @@
+
+.science-publication{
+  background-color:#f5f6f7;
+  margin-bottom:20px;
+  padding:20px;
+  border-radius:10px;
+}
+
+.science-publication > h5{
+  font-size:16px;
+  color:#fb2056;
+  margin-bottom:0px;
+}
+
+.science-publication > p{
+  font-weight:400;
+  margin-bottom:0px;
+}
+
+.badge-field{
+  margin-right:5px;
+  background-color:#5a6169 !important;
+}
+
+.button-more{
+  margin-right:10px;
+  border-radius:30px!important;
+  padding:5px 8px 5px 8px!important;
+}
+
+.pub-subtitle{
+  font-size:12px;
+}
+
+.pub-abstract{
+  font-size:14px;
+  font-weight:400;
+}

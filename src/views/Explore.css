@@ -1,0 +1,197 @@
+.img-carousel{
+    height:200px;
+}
+
+.rec-dot{
+    visibility: hidden;
+}
+
+.rec.rec-arrow {
+    font-size:10px;
+    height:50px;
+    min-width:20px;
+    width:20px;
+    background:none;
+    border:none;
+    box-shadow: none;
+    margin:0
+}
+
+
+.rec.rec-arrow:hover:enabled{
+    background:none;
+    border:none;
+    box-shadow: none;
+    color:#fb2056;
+}
+
+.rec.rec-arrow:focus:enabled{
+    background:none;
+    border:none;
+    box-shadow: none;
+    color:#fb2056;
+}
+
+.rec.rec-arrow:enabled{
+    background:none;
+    border:none;
+    box-shadow: none;
+    color:#fb2056;
+}
+
+/* 
+.div-carousel{
+    margin-bottom:1rem;
+    height:205px;
+}
+
+
+.rec-carousel{
+    padding:2px;
+    min-height:205px;
+} */
+
+
+.card-info-species{
+    height:calc(100vh - 160px);
+    overflow:auto;
+}
+
+
+.card-info-species::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.card-info-species::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.card-info-species::-webkit-scrollbar-thumb
+{
+	background-color: #fb2056;
+}
+
+
+.btn.btn-primary:hover{
+    background-color: #182573;
+    border-color:#182573;
+}
+
+
+.btn.btn-primary:hover{
+    background-color: #182573;
+    border-color:#182573;
+}
+
+.btn.btn-primary:visited{
+    background-color: #182573;
+    border-color:#182573;
+}
+
+.btn.btn-primary:focus{
+    background-color: #182573;
+    border-color:#182573;
+}
+
+
+.btn.btn-primary.active{
+    background-color: #182573 !important;
+    border-color:#182573 !important;
+}
+
+.controls-graph{
+    padding-right:0.5rem;
+}
+
+.controls-graph > button{
+    font-size:1rem;
+}
+
+.card-text-subtitle{
+    font-size:16px;
+    font-weight:700;
+}
+
+
+.wiki-description{
+    background-color:#fef5f8;
+    padding:1rem;
+    font-size:14px;
+    margin-bottom:1rem;
+  }
+  
+.wiki-description > h5{
+    font-weight:bold;
+    font-size:16px;
+    margin:0rem;
+    margin-top:1rem;
+}
+
+.wiki-description > p{
+    margin:0rem;
+    font-weight:400;
+    margin-top:0.5rem;
+}
+
+.wiki-description > button{
+    margin-top:1rem;
+}
+
+
+  
+.wiki-collapse-description > h5{
+    font-weight:bold;
+    font-size:16px;
+    margin:0rem;
+    margin-top:1rem;
+}
+
+.wiki-collapse-description > p{
+    margin:0rem;
+    font-weight:400;
+    margin-top:0.5rem;
+}
+
+
+.button-collapse{
+    background:none!important;
+    color:#fb2056!important;
+  }
+  
+.button-collapse:hover{
+    border-color:#fb2056!important;
+    box-shadow: 0px 0px 3px #fb2056 !important;
+}
+
+.button-collapse:visited{
+    border-color:#fb2056!important;
+    box-shadow: 0px 0px 3px #fb2056 !important;
+}
+
+.button-collapse:focus{
+    border-color:#fb2056!important;
+    box-shadow: 0px 0px 3px #fb2056 !important;
+}
+
+
+.card-info-species{
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    
+  }
+
+.react-tabs__tab-list{
+    margin-bottom:0px;
+}
+
+  
+.button-tabs{
+    margin-right:5px;
+    vertical-align: middle;
+    height:1rem;
+  }
+  
