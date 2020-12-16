@@ -138,14 +138,14 @@ const ExploreView = ({  }) => {
 
       });
 
-    fetch(`https://api.gbif.org/v1/species/match?q=${encodeURI(species)}`)
-      .then(results => results.json())
-      .then(data => {
-        let res = data.results.filter(el => el.rank !== "SUBSPECIES" && el.rank !== "VARIETY" && el.rank !== undefined && !("taxonID" in el) && !("nubKey" in el))
-        res = _.uniqBy(res,"canonicalName")
-        G.addSpeciesSearchGBIF(res);
-        handleUpdateGraph(G);
-    });
+    // fetch(`https://api.gbif.org/v1/species/match?q=${encodeURI(species)}`)
+    //   .then(results => results.json())
+    //   .then(data => {
+    //     let res = data.results.filter(el => el.rank !== "SUBSPECIES" && el.rank !== "VARIETY" && el.rank !== undefined && !("taxonID" in el) && !("nubKey" in el))
+    //     res = _.uniqBy(res,"canonicalName")
+    //     G.addSpeciesSearchGBIF(res);
+    //     handleUpdateGraph(G);
+    // });
 
 
     fetch(`https://api.gbif.org/v1/species/search?q=${encodeURI(species)}&qField=VERNACULAR`)
