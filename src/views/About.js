@@ -24,7 +24,7 @@ const AboutView = ({  }) => (
     </Row>
     <Row noGutters className="py-4">
       <Col lg="6" md="12" className="home-text">
-        <p className="home-p" style={{textAlign:"right"}}>“It seems to me that the natural world is the greatest source of excitement; the greatest source of visual beauty; the greatest source of intellectual interest. It is the greatest source of so much in life that makes life worth living.”<br/>― <span style={{fontSize:"14px"}}>David Attenborough</span></p>
+        <p className="home-p" style={{textAlign:"right"}}>“It seems to me that the natural world is the greatest source of excitement; the greatest source of visual beauty; the greatest source of intellectual interest. It is the greatest source of so much in life that makes life worth living.”<br/>― <span style={{fontSize:"14px"}} className="ceebios">Sir David Attenborough</span></p>
       </Col>
       <Col lg="6" md="12" className="colored-left">
         <img src={Planet2} alt="planet2" className="home-img"/>
@@ -35,7 +35,7 @@ const AboutView = ({  }) => (
         <img src={Planet3} alt="planet1" className="home-img"/>
       </Col>
       <Col lg="6" md="12" className="home-text colored-left">
-        <p className="home-p" style={{textAlign:"left"}}>Platform created in collaboration between Data For Good and Ceebios.<br/>Species data from GBIF, scientific publications from Semantic Scholar Open Corpus</p>
+        <p className="home-p" style={{textAlign:"left"}}>Platform created in collaboration between <span className="ceebios">Data For Good</span> and <span className="ceebios">Ceebios</span>.<br/>Species data from <span className="ceebios">GBIF</span>, scientific publications from <span className="ceebios">Semantic Scholar Open Corpus</span></p>
       </Col>
     </Row> 
   </Container>
